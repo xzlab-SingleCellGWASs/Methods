@@ -24,7 +24,7 @@ using namespace Rcpp;
 #define ARMA_DONT_PRINT_ERRORS
 
 //************************************************************//
-//  Single Cell Nonnegative Matrix Factorization using ADMM   //
+//  Single Cell Matrix Factorization using ADMM   //
 //************************************************************//
 // [[Rcpp::export]]
 SEXP scMF_cpp(SEXP Xin, SEXP Win, SEXP Hin, SEXP criteriain, SEXP rhoin, SEXP num_iterin){
