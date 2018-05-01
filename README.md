@@ -6,7 +6,7 @@ The Statistical Tools for Single Cell RNAseq Data Analysis
 Polygenic models for single cell RNAseq data
 
 # Matrix factorization
-Poisson nongative matrix factorization
+Counts-based matrix factorization to extract the low dimension structure on scRNAseq data
 
 
 
