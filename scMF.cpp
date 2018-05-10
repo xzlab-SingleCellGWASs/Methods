@@ -81,14 +81,13 @@ SEXP scMF_cpp(SEXP Xin, SEXP Win, SEXP Hin, SEXP criteriain, SEXP rhoin, SEXP nu
 										  cbrt( C(i,j) - sqrt(D(i,j))) -
 										  A(i,j)/3.0;
 						}else{
-							Xprime(i,j) = 2.0*sqrt( -B(i,j))*
-							              cos( acos(C(i,j)/sqrt(-B(i,j)*B(i,j)*B(i,j))) /3.0 ) - 
+							Xprime(i,j) = 2.0*sqrt( -B(i,j))*cos( acos(C(i,j)/sqrt(-B(i,j)*B(i,j)*B(i,j))) /3.0 ) - 
 				                           A(i,j)/3.0;
 						}
 						
 					}
 				}
-			}else if(criteria == 2){
+			}else if(criteria == 2){// *lee's multiplicative update with least square loss
 				cout<<"add it later ..." <<endl;
 			}
 			
