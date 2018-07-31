@@ -1,3 +1,4 @@
+# Nonnegative Matrix Factorization via ADMM
 
 num_pc = 5 # number of PCs
 num_iter = 100
