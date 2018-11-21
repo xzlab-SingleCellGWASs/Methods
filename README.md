@@ -12,5 +12,6 @@ Count-based matrix factorization methods to extract the low dimension structure 
 
 **Negative Binomial Matrix Factorization**
 
-
+# Sparse models
+Sparse models for single-cell RNAseq data
 
